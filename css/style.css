@@ -16,16 +16,18 @@ header {
     background: #00afa981;
     border: 1px solid #00afa981;
     border-radius: 20px;
+    transition: background-color 0.2s linear;
 }
 
 .nav-link-contact {
     text-transform: capitalize;
     text-decoration: none;
-    transition: background-color 0.2s linear;
+    color: #004341;
 }
 
 .nav-item-contact:hover {
     background: white;
+    color: #00afa9;
 }
 
 .banner {
