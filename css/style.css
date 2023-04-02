@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box !important;
+}
+
+img {
+    max-width: 100% !important;
+}
+
+header {
+    box-shadow: rgba(50, 50, 93, 0.455) 0px 0px 100px -10px;
+}
+
+.nav-item-contact {
+    margin: auto 0;
+    padding: 4px 8px;
+    background: #00afa981;
+    border: 1px solid #00afa981;
+    border-radius: 20px;
+}
+
+.nav-link-contact {
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: background-color 0.2s linear;
+}
+
+.nav-item-contact:hover {
+    background: white;
+}
+
+.banner {
+    background-image: url(../images/banner-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #0005;
+    background-blend-mode: multiply;
+}
+
+.bg-here {
+    background: #00afa9 !important;
+}
+
+.tc-here {
+    color: #004341 !important;
+}
+
+.btn-here {
+    background: #00afa99a !important;
+    border: 1px solid #00afa99a !important;
+    border-radius: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: background-color 0.2s linear;
+    color: white;
+}
+
+.btn-here:hover {
+    background-color: white !important;
+    color: #004341 !important;
+}
+
+.btn-blue {
+    background: #0003af9a !important;
+    border: 1px solid #0003af9a !important;
+    border-radius: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: background-color 0.2s linear;
+    color: white;
+}
+
+.btn-blue:hover {
+    background-color: white !important;
+    color: #0003af !important;
+}
+
+.btn-blue-unfill {
+    background: #00000c9a !important;
+    border: 1px solid #00007b9a !important;
+    border-radius: 20px;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: background-color 0.2s linear;
+    color: white;
+}
+
+.btn-blue-unfill:hover {
+    background-color: #0003af9a !important;
+    color: white !important;
+}
+
+.footer-link li {
+    list-style-type: none;
+    padding: 8px 0;
+}
+
+.footer-link li a {
+    text-decoration: none;
+    color: #fffa;
+
+}
